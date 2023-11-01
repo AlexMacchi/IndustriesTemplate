@@ -1,0 +1,61 @@
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../public/images/Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.testimonialBox{
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    color: #999;
+}
+
+.testimonialBox>img{
+    width: 20%;
+}
+
+.quote{
+    opacity: 0.2;
+    width: 100%;
+}
+.testimonialBox .details{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.testimonialBox .details .imgBx{
+   position: relative;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   overflow: hidden;
+   margin-right: 20px; 
+}
+.testimonialBox .details .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.testimonialBox .details h3{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #2196f3;
+    line-height: 1.1em;
+}
+
+.testimonialBox .details h3 span{
+    font-size: 12px;
+    color: #666;
+}
